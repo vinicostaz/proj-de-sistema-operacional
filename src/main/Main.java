@@ -45,7 +45,7 @@ public class Main {
         List<Integer> refs = ReferenceParser.parse(input);
 
         if (frames <= 0 || refs.isEmpty()) {
-            System.out.println("❌ Entrada inválida. Encerrando programa.");
+            System.out.println("Entrada inválida. Encerrando programa.");
             return;
         }
 

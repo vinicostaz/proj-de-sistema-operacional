@@ -6,8 +6,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * Painel simples de gráfico de barras usando Java2D (sem bibliotecas externas).
- * Use setData(...) e chame repaint().
+ * Painel simples de gráfico de barras usando Java2D.
  */
 public class BarChartPanel extends JPanel {
     private Map<String, Integer> data = new LinkedHashMap<>();

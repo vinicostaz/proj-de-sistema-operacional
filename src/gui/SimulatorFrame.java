@@ -17,7 +17,7 @@ import java.util.Map;
 
 /**
  * Janela Swing para executar os algoritmos e exibir resumo + gráfico comparativo.
- * Integra com core.Simulator e algos/*.
+ * Integra com core.Simulator e algoritmos/*.
  */
 public class SimulatorFrame extends JFrame {
     private final JTextField framesField = new JTextField("3");

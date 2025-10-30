@@ -18,8 +18,5 @@ public interface PageReplacementAlgorithm {
      */
     SimulationResult simulate(List<Integer> references, int frames, boolean trace);
 
-    /**
-     * Nome legível do algoritmo (ex: "FIFO", "LRU", etc).
-     */
     String getName();
 }
