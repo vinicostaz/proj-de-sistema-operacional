@@ -21,12 +21,20 @@ O sistema pode ser executado em **modo console** ou com **interface gráfica (Sw
 ### 🖥️ Compilação (gera classes em `out/`)
 ```bash
 javac -d out core/*.java algoritmos/*.java gui/*.java main/Main.java
+```
 
 ▶️ Modo Console
+
+```bash
 java -cp out main.Main
+```
 
 🧾 Modo Detalhado (trace)
+```bash
 java -cp out main.Main --trace
+```
 
 🎨 Modo Gráfico (GUI)
+```bash
 java -cp out main.Main --gui
+```
